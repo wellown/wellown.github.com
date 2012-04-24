@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 日记 | 麦满屯]]></title>
-  <link href="http://yoursite.com/blog/categories/日记/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-04-25T00:06:39+08:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://wellown.github.com/blog/categories/日记/atom.xml" rel="self"/>
+  <link href="http://wellown.github.com/"/>
+  <updated>2012-04-25T00:12:52+08:00</updated>
+  <id>http://wellown.github.com/</id>
   <author>
     <name><![CDATA[张晓京]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[你好！！]]></title>
-    <link href="http://yoursite.com/blog/2012/04/22/hello-world/"/>
+    <link href="http://wellown.github.com/blog/2012/04/22/hello-world/"/>
     <updated>2012-04-22T09:13:00+08:00</updated>
-    <id>http://yoursite.com/blog/2012/04/22/hello-world</id>
+    <id>http://wellown.github.com/blog/2012/04/22/hello-world</id>
     <content type="html"><![CDATA[<p>测试发文</p>
 ]]></content>
   </entry>

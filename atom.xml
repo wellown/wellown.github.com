@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[麦满屯]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-04-25T00:06:39+08:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://wellown.github.com/atom.xml" rel="self"/>
+  <link href="http://wellown.github.com/"/>
+  <updated>2012-04-25T00:12:52+08:00</updated>
+  <id>http://wellown.github.com/</id>
   <author>
     <name><![CDATA[张晓京]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[如何设定Octopress运行环境]]></title>
-    <link href="http://yoursite.com/blog/2012/04/25/how-to-setup-octopress/"/>
+    <link href="http://wellown.github.com/blog/2012/04/25/how-to-setup-octopress/"/>
     <updated>2012-04-25T00:05:00+08:00</updated>
-    <id>http://yoursite.com/blog/2012/04/25/how-to-setup-octopress</id>
+    <id>http://wellown.github.com/blog/2012/04/25/how-to-setup-octopress</id>
     <content type="html"><![CDATA[<h1>Windows下配置实用Octopress的方法记录</h1>
 
 <p>Octopress是一套基于Ruby语言开发的静态静态Blog生成程序——不使用数据库、不使用php等语言，使用纯HTML页面生成整个blog。由于没有动态脚本，没有数据库，整个Blog运行的系统开销可以降低到最小，可以尽可能的减少网站的安全隐患。同时，由于整个blog使用文本方式构建，所有的日志内容都可以方便的使用源代码管理系统进行管理。</p>
@@ -29,9 +29,9 @@
   
   <entry>
     <title type="html"><![CDATA[你好！！]]></title>
-    <link href="http://yoursite.com/blog/2012/04/22/hello-world/"/>
+    <link href="http://wellown.github.com/blog/2012/04/22/hello-world/"/>
     <updated>2012-04-22T09:13:00+08:00</updated>
-    <id>http://yoursite.com/blog/2012/04/22/hello-world</id>
+    <id>http://wellown.github.com/blog/2012/04/22/hello-world</id>
     <content type="html"><![CDATA[<p>测试发文</p>
 ]]></content>
   </entry>
