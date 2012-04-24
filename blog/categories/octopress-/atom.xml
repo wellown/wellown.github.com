@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[麦满屯]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress, | 麦满屯]]></title>
+  <link href="http://yoursite.com/blog/categories/octopress-/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
   <updated>2012-04-25T00:06:39+08:00</updated>
   <id>http://yoursite.com/</id>
@@ -24,15 +24,6 @@
 
 <p>在Windows下搭建ruby环境是痛苦的。找对了方法建立Octopress的运行环境是幸福的。下面记录在这里供以后使用：
 1. 安装Ruby运行环境。</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[你好！！]]></title>
-    <link href="http://yoursite.com/blog/2012/04/22/hello-world/"/>
-    <updated>2012-04-22T09:13:00+08:00</updated>
-    <id>http://yoursite.com/blog/2012/04/22/hello-world</id>
-    <content type="html"><![CDATA[<p>测试发文</p>
 ]]></content>
   </entry>
   
