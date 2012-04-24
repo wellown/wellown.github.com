@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[麦满屯]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2012-04-24T17:56:14+08:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[张晓京]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[你好！！]]></title>
+    <link href="http://yoursite.com/blog/2012/04/22/hello-world/"/>
+    <updated>2012-04-22T09:13:00+08:00</updated>
+    <id>http://yoursite.com/blog/2012/04/22/hello-world</id>
+    <content type="html"><![CDATA[<p>测试发文</p>
+]]></content>
+  </entry>
+  
+</feed>
