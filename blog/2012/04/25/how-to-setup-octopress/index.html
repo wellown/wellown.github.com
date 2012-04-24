@@ -98,8 +98,23 @@
 
 <ol>
 <li><p>安装Ruby运行环境。</p></li>
-<li><p>安装Octopress</p></li>
-<li><p>配置Octopress</p></li>
+<li><p>安装Octopress</p>
+
+<ul>
+<li>获取octopress，执行git clone git://github.com/imathis/octopress.git myblog。</li>
+<li>gem install bundler（记得翻墙）</li>
+<li>bundle install（还是要翻墙）</li>
+<li>rake install</li>
+</ul>
+</li>
+<li>配置Octopress
+
+<ul>
+<li>将octopress的目录内的_config.yml的编码改成UTF-8。</li>
+<li>到Ruby的安装目录\lib\ruby\gems\1.9.1\gems\jekyll-0.11.0\lib\jekyll\找到convertible.rb这个文件，修改self.content = File.read(File.join(base, name))为self.content = File.read(File.join(base, name), :encoding => &#8220;utf-8&#8221;)。</li>
+<li>修改配置文件_config.yml，修改url、title、subtitle、author等等。</li>
+</ul>
+</li>
 </ol>
 
 </div>
