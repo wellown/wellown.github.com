@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>麦满屯</title>
+  <title>WEB设计流程分析 - 麦满屯</title>
   <meta name="author" content="张晓京">
 
   
-  <meta name="description" content="WEB设计流程 进行WEB网页的设计是一项创造性的活动。为了得到更好的效果，通常来说网页设计会遵循一定的工作流程。在成熟工作流程指导下，能尽可能减少开发过程中的重复劳动和返工。通过互联网，我学习到的工作流程通常如下： 内容分析 内容分析环节应仔细研究需要在网页中的展现的内容，梳理其中的逻辑关系， &hellip;">
+  <meta name="description" content="">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://wellown.github.com">
+  <link rel="canonical" href="http://wellown.github.com/blog/2012/04/26/WEB-Design-Process">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -62,15 +62,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/04/26/WEB-Design-Process/">WEB设计流程分析</a></h1>
+      <h1 class="entry-title">WEB设计流程分析</h1>
     
     
       <p class="meta">
@@ -93,7 +90,7 @@
   </header>
 
 
-  <div class="entry-content"><h2>WEB设计流程</h2>
+<div class="entry-content"><h2>WEB设计流程</h2>
 
 <p>进行WEB网页的设计是一项创造性的活动。为了得到更好的效果，通常来说网页设计会遵循一定的工作流程。在成熟工作流程指导下，能尽可能减少开发过程中的重复劳动和返工。通过互联网，我学习到的工作流程通常如下：</p>
 
@@ -172,84 +169,16 @@
 </ul>
 
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/04/25/how-to-setup-octopress/">如何设定Octopress运行环境</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">张晓京</span></span>
 
-<time datetime="2012-04-25T00:05:00+08:00" pubdate data-updated="true">20年04月25日</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>Windows下配置实用Octopress的方法记录</h1>
-
-<p>Octopress是一套基于Ruby语言开发的静态静态Blog生成程序——不使用数据库、不使用php等语言，使用纯HTML页面生成整个blog。由于没有动态脚本，没有数据库，整个Blog运行的系统开销可以降低到最小，可以尽可能的减少网站的安全隐患。同时，由于整个blog使用文本方式构建，所有的日志内容都可以方便的使用源代码管理系统进行管理。</p>
-
-<p>在Windows下搭建ruby环境是痛苦的。找对了方法建立Octopress的运行环境是幸福的。下面记录在这里供以后使用：</p>
-
-<ol>
-<li><p>安装Ruby运行环境。</p></li>
-<li><p>安装Octopress</p>
-
-<ul>
-<li>获取octopress，执行git clone git://github.com/imathis/octopress.git myblog。</li>
-<li>gem install bundler（记得翻墙）</li>
-<li>bundle install（还是要翻墙）</li>
-<li>rake install</li>
-</ul>
-</li>
-<li>配置Octopress
-
-<ul>
-<li>将octopress的目录内的_config.yml的编码改成UTF-8。</li>
-<li>到Ruby的安装目录\lib\ruby\gems\1.9.1\gems\jekyll-0.11.0\lib\jekyll\找到convertible.rb这个文件，修改self.content = File.read(File.join(base, name))为self.content = File.read(File.join(base, name), :encoding => &#8220;utf-8&#8221;)。</li>
-<li>修改配置文件_config.yml，修改url、title、subtitle、author等等。</li>
-</ul>
-</li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/04/22/hello-world/">你好！！</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -261,27 +190,38 @@
   
 
 
-<time datetime="2012-04-22T09:13:00+08:00" pubdate data-updated="true">20年04月22日</time>
-        
-      </p>
+<time datetime="2012-04-26T00:00:00+08:00" pubdate data-updated="true">20年04月26日</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/博客/'>博客</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>测试发文</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wellown.github.com/blog/2012/04/26/WEB-Design-Process/" data-via="" data-counturl="http://wellown.github.com/blog/2012/04/26/WEB-Design-Process/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/04/25/how-to-setup-octopress/" title="Previous Post: 如何设定Octopress运行环境">&laquo; 如何设定Octopress运行环境</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -310,6 +250,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

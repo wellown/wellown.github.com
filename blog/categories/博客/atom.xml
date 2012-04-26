@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[麦满屯]]></title>
-  <link href="http://wellown.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 博客 | 麦满屯]]></title>
+  <link href="http://wellown.github.com/blog/categories/博客/atom.xml" rel="self"/>
   <link href="http://wellown.github.com/"/>
   <updated>2012-04-26T15:46:46+08:00</updated>
   <id>http://wellown.github.com/</id>
@@ -96,50 +96,6 @@
 <li>了解后端程序开发语言，并能够使用相应的语言完成前端开发。</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[如何设定Octopress运行环境]]></title>
-    <link href="http://wellown.github.com/blog/2012/04/25/how-to-setup-octopress/"/>
-    <updated>2012-04-25T00:05:00+08:00</updated>
-    <id>http://wellown.github.com/blog/2012/04/25/how-to-setup-octopress</id>
-    <content type="html"><![CDATA[<h1>Windows下配置实用Octopress的方法记录</h1>
-
-<p>Octopress是一套基于Ruby语言开发的静态静态Blog生成程序——不使用数据库、不使用php等语言，使用纯HTML页面生成整个blog。由于没有动态脚本，没有数据库，整个Blog运行的系统开销可以降低到最小，可以尽可能的减少网站的安全隐患。同时，由于整个blog使用文本方式构建，所有的日志内容都可以方便的使用源代码管理系统进行管理。</p>
-
-<p>在Windows下搭建ruby环境是痛苦的。找对了方法建立Octopress的运行环境是幸福的。下面记录在这里供以后使用：</p>
-
-<ol>
-<li><p>安装Ruby运行环境。</p></li>
-<li><p>安装Octopress</p>
-
-<ul>
-<li>获取octopress，执行git clone git://github.com/imathis/octopress.git myblog。</li>
-<li>gem install bundler（记得翻墙）</li>
-<li>bundle install（还是要翻墙）</li>
-<li>rake install</li>
-</ul>
-</li>
-<li>配置Octopress
-
-<ul>
-<li>将octopress的目录内的_config.yml的编码改成UTF-8。</li>
-<li>到Ruby的安装目录\lib\ruby\gems\1.9.1\gems\jekyll-0.11.0\lib\jekyll\找到convertible.rb这个文件，修改self.content = File.read(File.join(base, name))为self.content = File.read(File.join(base, name), :encoding => &#8220;utf-8&#8221;)。</li>
-<li>修改配置文件_config.yml，修改url、title、subtitle、author等等。</li>
-</ul>
-</li>
-</ol>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[你好！！]]></title>
-    <link href="http://wellown.github.com/blog/2012/04/22/hello-world/"/>
-    <updated>2012-04-22T09:13:00+08:00</updated>
-    <id>http://wellown.github.com/blog/2012/04/22/hello-world</id>
-    <content type="html"><![CDATA[<p>测试发文</p>
 ]]></content>
   </entry>
   
